@@ -47,7 +47,7 @@ pip install -Iv https://pypi.python.org/packages/source/r/requests/requests-0.14
 pip install httplib2
 pip install BeautifulSoup
 pip install publicsuffix
-#pip install mitmproxy
+pip install mitmproxy==0.16
 pip install pyinotify
 pip install netifaces
 pip install dnslib
@@ -64,7 +64,7 @@ echo "[+] Downloading pylibpcap..."
 pip install https://sourceforge.net/projects/pylibpcap/files/latest/download?source=files#egg=pylibpcap
 
 echo "[+] Downloading dpkt..."
-pip install https://dpkt.googlecode.com/files/dpkt-1.8.tar.gz
+pip install dpkt
 
 echo "[+] Installing patched version of scapy..."
 pip install ./setup/scapy-latest-snoopy_patch.tar.gz
