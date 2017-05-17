@@ -47,7 +47,7 @@ pip install -Iv https://pypi.python.org/packages/source/r/requests/requests-0.14
 pip install httplib2
 pip install BeautifulSoup
 pip install publicsuffix
-pip install mitmproxy==0.16
+pip install mitmproxy
 pip install pyinotify
 pip install netifaces
 pip install dnslib
